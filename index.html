@@ -1,15 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>datamend — The Unified Data Quality Library for ML</title>
-  <meta name="description" content="datamend is the unified Python library for data repair, contract validation, drift detection, and failure tracing. Built for production ML pipelines." />
-  <meta property="og:title" content="datamend — Unified Data Quality for ML" />
-  <meta property="og:description" content="Fix dirty data. Enforce contracts. Detect drift. Trace failures. One library." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ── Primary SEO ───────────────────────────────────────────── -->
+  <title>datamend — Python Data Quality Library | Repair, Drift Detection & Failure Tracing</title>
+  <meta name="description" content="datamend is the unified Python library for automatic data repair, statistical contract validation, drift detection (PSI/KS/JSD), and ML failure tracing. pip install datamend. Free & open source." />
+  <meta name="keywords" content="datamend, data quality python, data repair library, drift detection python, data validation, pandas data cleaning, machine learning data quality, PSI drift, KS test python, data contract, MLops data quality, autorepair pandas, feature drift detection, model failure tracing, python data science library" />
+  <meta name="author" content="Vignesh" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://vignesh2027.github.io/datamend-site/" />
+
+  <!-- ── Open Graph (Facebook, LinkedIn) ──────────────────────── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="datamend" />
+  <meta property="og:title" content="datamend — Unified Data Quality Library for Python ML" />
+  <meta property="og:description" content="Fix dirty data automatically. Enforce data contracts. Detect distribution drift. Trace model failures to root columns. One Python library, four pillars, zero config." />
+  <meta property="og:url" content="https://vignesh2027.github.io/datamend-site/" />
+  <meta property="og:image" content="https://vignesh2027.github.io/datamend-site/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="datamend — pip install datamend — The unified data quality library" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ── Twitter / X Card ─────────────────────────────────────── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="datamend — Python Data Quality Library" />
+  <meta name="twitter:description" content="Auto-repair dirty data, enforce contracts, detect drift, trace model failures. pip install datamend — free & open source." />
+  <meta name="twitter:image" content="https://vignesh2027.github.io/datamend-site/og-image.png" />
+  <meta name="twitter:image:alt" content="datamend data quality library" />
+  <meta name="twitter:creator" content="@vignesh2027" />
+  <meta name="twitter:site" content="@vignesh2027" />
+
+  <!-- ── JSON-LD Structured Data ──────────────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "datamend",
+    "description": "The unified Python library for automatic data repair, statistical contract validation, distribution drift detection, and ML model failure tracing.",
+    "url": "https://vignesh2027.github.io/datamend-site/",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Windows, macOS, Linux",
+    "programmingLanguage": "Python",
+    "author": {
+      "@type": "Person",
+      "name": "Vignesh",
+      "url": "https://github.com/vignesh2027"
+    },
+    "license": "https://opensource.org/licenses/MIT",
+    "codeRepository": "https://github.com/vignesh2027/datamend.py",
+    "downloadUrl": "https://pypi.org/project/datamend/",
+    "softwareVersion": "0.1.0",
+    "releaseNotes": "https://github.com/vignesh2027/datamend.py/blob/main/CHANGELOG.md",
+    "keywords": "data quality, data repair, drift detection, data validation, machine learning, MLops, pandas, python",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "datamend",
+    "url": "https://vignesh2027.github.io/datamend-site/",
+    "description": "Official website for the datamend Python data quality library",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://github.com/vignesh2027/datamend.py/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ── Favicon ───────────────────────────────────────────────── -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>" />
+
+  <!-- ── Fonts ─────────────────────────────────────────────────── -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>

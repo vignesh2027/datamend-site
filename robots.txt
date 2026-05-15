@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vignesh2027.github.io/datamend-site/sitemap.xml
